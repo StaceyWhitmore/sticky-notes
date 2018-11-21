@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 //import ReactDOM from 'react-dom'
 import Note from './Note'
+import './index.css'//
+import './App.css'//
 
 class Board extends Component {
   constructor(props) {
@@ -45,6 +47,7 @@ class Board extends Component {
    this.eachNote = this.eachNote.bind(this)
 
 
+
   } //close constructor()
 
     nextId() {
@@ -83,7 +86,13 @@ class Board extends Component {
                       onRemove={this.remove}>
                   {note.note}
                 </Note>)
+
+
     }//,
+    style = {
+      background: '#eab92d'
+    }
+
     render() {
         return (<div className='board'>
                    {this.state.notes.map(this.eachNote)}

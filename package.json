@@ -1,11 +1,11 @@
 {
   "name": "sticky-notes",
-  "version": "0.1.0",
-  "private": true,
+  "version": "2.0.0",
   "dependencies": {
     "create-react-class": "^15.6.3",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
+    "react-draggable": "^3.0.5",
     "react-scripts": "2.0.4"
   },
   "scripts": {

@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import './index.css'//
+import './App.css'//
 import './App.css';
 
 class App extends Component {
@@ -17,7 +19,7 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
+            built with React
           </a>
         </header>
       </div>

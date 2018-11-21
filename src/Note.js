@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 //import ReactDOM from 'react-dom'
 //import Draggable from 'react-draggable'//{DraggableCore}
 import ReactDraggable from 'react-draggable' //{DraggableCore}
+import './index.css'//
+import './App.css'//
 
 
 class Note extends Component {

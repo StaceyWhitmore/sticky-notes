@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import Board from './Board'
 //import App from './App';
 import './index.css'
+import './App.css'//
 import * as serviceWorker from './serviceWorker';
 
 
